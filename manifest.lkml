@@ -1,15 +1,17 @@
+project_name: "fork-chronicle"
+
 constant: CONNECTION_NAME{
-  value: "your-bq-connection"
+  value: "chronicle"
   export: override_required
 }
 
 constant: DATASET_NAME{
-  value: "dataset"
+  value: "datalake"
   export: override_required
 }
 
 constant: CHRONICLE_URL{
-  value: "https://your_chronicle_url.backstory.chronicle.security"
+  value: "https://crestdatasys.backstory.chronicle.security"
   export: override_required
 }
 
@@ -34,7 +36,7 @@ constant: RULE_DETECTIONS{
 }
 
 constant: UDM_EVENTS{
-  value: "udm_events"
+  value: "events"
 }
 
 constant: UDM_EVENTS_AGGREGRATES{
